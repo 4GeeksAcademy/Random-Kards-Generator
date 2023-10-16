@@ -1,0 +1,108 @@
+html{
+  height: 100%;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+.card {
+  font-family: sans-serif;
+  position: relative;
+  width: 225px;
+  height: 350px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 5px 10px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card.spades,
+.card.clubs {
+  color: black;
+}
+.card.hearts,
+.card.diamonds {
+  color: red;
+}
+
+.card-value-suit {
+  display: block;
+  position: absolute;
+}
+.card-value-suit.top {
+  font-size: 30px;
+  top: 5px;
+  left: 5px;
+}
+.card-value-suit.bot {
+  font-size: 30px;
+  transform: rotate(180deg);
+  bottom: 5px;
+  right: 5px;
+  
+}
+.card-suit {
+  
+  font-size: 100px;
+  position: absolute;
+  margin-left: 26px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 25%;
+
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#btn-container {
+  margin-top: 20px;
+}
+/* 
+
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item {
+  display: grid;
+  height: 400px;
+  width: 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  background-color: white;
+  color: black;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 11px;
+  box-shadow: 0px 5px 15px rgb(141, 116, 150);
+}
+
+.heart {
+  text-align: center;
+  align-self: center;
+  font-size: 4em;
+  color: red;
+}
+
+.top-left {
+  padding: 0.1em;
+  font-size: 1.5em;
+}
+
+.bottom-right {
+  align-self: end;
+  transform: rotate(180deg);
+  font-size: 1.5em;
+}
+
+ */
